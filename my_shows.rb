@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'nokogiri'
 require 'open-uri'
 require 'cgi/util'
@@ -16,20 +14,38 @@ class MyShows
     end
   end
 
+  # parse list of top rated movies from main page
   def top_rated(html)
-    movies = {}
-    series_list = html.xpath('/html/body/div[1]/div[4]/div/div')[0..1].css('a')
-    series_list.each do |movie|
+    top_rated_list = {}
+    movies_list = html.xpath('/html/body/div[1]/div[4]/div/div')[0..1].css('a')
+    movies_list.each do |movie|
       ru_title = movie.css('.fsHeader').text
-      movies[:"#{ru_title}"] = {
+      top_rated_list[:"#{ru_title}"] = {
           en_title: movie.css('.cFadeLight').text,
           image_link: movie.search('._img').to_s[/(?<=\().+?(?=\))/],
           description: movie['href']
       }
     end
-    movies
+    top_rated_list
   end
+
+  # parse list of searched series
+  def series_list(html)
+    series = {}
+    all_series = html.css('table.catalogTable').search('tr')
+    all_series[1...-1].each do |movie|
+      ru_title = movie.css('td')[0].css('a').text
+      series[:"#{ru_title}"] = {
+          en_title: movie.css('td')[0].css('.catalogTableSubHeader').text,
+          watchers: movie.css('td')[2].text,
+          seasons: movie.css('td')[4].text,
+          year: movie.css('td')[5].text
+      }
+    end
+    series
+  end
+
 end
 
 ms = MyShows.new
-puts ms.get_html('во все')
+puts ms.series_list(ms.get_html('главный'))

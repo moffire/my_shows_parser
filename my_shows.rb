@@ -1,15 +1,19 @@
+# frozen_string_literal: true
+
 require 'nokogiri'
 require 'open-uri'
+require 'cgi/util'
 
 class MyShows
-  attr_accessor :url
 
-  def initialize(url)
-    @url = url
-  end
-
-  def main_page
-    Nokogiri::HTML(open(self.url))
+  def get_html(query = nil)
+    main_page_url = 'https://myshows.me'
+    if query.nil?
+      Nokogiri::HTML(open(main_page_url))
+    else
+      encoded_query = CGI.escape(query)
+      Nokogiri::HTML(open(main_page_url + "/search/?q=#{encoded_query}"))
+    end
   end
 
   def top_rated(html)
@@ -20,12 +24,12 @@ class MyShows
       movies[:"#{ru_title}"] = {
           en_title: movie.css('.cFadeLight').text,
           image_link: movie.search('._img').to_s[/(?<=\().+?(?=\))/],
-          kp_link: movie['href']
-      } end
+          description: movie['href']
+      }
+    end
     movies
   end
 end
 
-ms = MyShows.new('https://myshows.me/')
-main_html = ms.main_page
-puts ms.top_rated(main_html)
+ms = MyShows.new
+puts ms.get_html('во все')

@@ -21,9 +21,9 @@ class MyShows
     movies_list.each do |movie|
       ru_title = movie.css('.fsHeader').text
       top_rated_list[:"#{ru_title}"] = {
-          en_title: movie.css('.cFadeLight').text,
-          image_link: movie.search('._img').to_s[/(?<=\().+?(?=\))/],
-          description: movie['href']
+        en_title: movie.css('.cFadeLight').text,
+        image_link: movie.search('._img').to_s[/(?<=\().+?(?=\))/],
+        description: movie['href']
       }
     end
     top_rated_list
@@ -34,12 +34,13 @@ class MyShows
     series = {}
     all_series = html.css('table.catalogTable').search('tr')
     all_series[1...-1].each do |movie|
-      ru_title = movie.css('td')[0].css('a').text
+      ru_title = movie.css('td > a')[0].text
       series[:"#{ru_title}"] = {
-          en_title: movie.css('td')[0].css('.catalogTableSubHeader').text,
-          watchers: movie.css('td')[2].text,
-          seasons: movie.css('td')[4].text,
-          year: movie.css('td')[5].text
+        en_title: movie.css('td > .catalogTableSubHeader')[0].text,
+        link: movie.css('td > a')[0]['href'],
+        watchers: movie.css('td')[2].text,
+        seasons: movie.css('td')[4].text,
+        year: movie.css('td')[5].text
       }
     end
     series

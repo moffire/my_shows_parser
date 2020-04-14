@@ -20,6 +20,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="movie_seasons" />
+                    <option name="lastUsedInstant" value="1586797995" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1586797994" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectId" id="1aOORLN1IWEDfnWPBs9Y9drvBL8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -89,63 +114,80 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="333" y="107" key="#Ruby/0.23.1440.877@0.23.1440.877" timestamp="1586710503374" />
-    <state x="412" y="263" width="937" height="487" key="#xdebugger.evaluate" timestamp="1586711564623">
+    <state x="432" y="386" width="937" height="487" key="#xdebugger.evaluate" timestamp="1586805727563">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="412" y="263" width="937" height="487" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1586711564623" />
-    <state width="1398" height="193" key="GridCell.Tab.0.bottom" timestamp="1586797338106">
+    <state x="432" y="386" width="937" height="487" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1586805727563" />
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom" timestamp="1586877405187">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="193" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586797338106" />
-    <state width="1398" height="193" key="GridCell.Tab.0.center" timestamp="1586797338104">
+    <state width="1398" height="299" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586877405187" />
+    <state width="1398" height="299" key="GridCell.Tab.0.center" timestamp="1586877405186">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075081" />
-    <state width="1398" height="193" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586797338104" />
-    <state width="1398" height="193" key="GridCell.Tab.0.left" timestamp="1586797338104">
+    <state width="1398" height="299" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586877405186" />
+    <state width="1398" height="299" key="GridCell.Tab.0.left" timestamp="1586877405185">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075079" />
-    <state width="1398" height="193" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586797338104" />
-    <state width="1398" height="193" key="GridCell.Tab.0.right" timestamp="1586797338105">
+    <state width="1398" height="299" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586877405185" />
+    <state width="1398" height="299" key="GridCell.Tab.0.right" timestamp="1586877405187">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075083" />
-    <state width="1398" height="193" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586797338105" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1586711582390">
+    <state width="1398" height="299" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586877405187" />
+    <state width="1398" height="274" key="GridCell.Tab.1.bottom" timestamp="1586877228798">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075086" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586711582390" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1586711582389">
+    <state width="1398" height="274" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586877228798" />
+    <state width="1398" height="274" key="GridCell.Tab.1.center" timestamp="1586877228797">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075085" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586711582389" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1586711582388">
+    <state width="1398" height="274" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586877228797" />
+    <state width="1398" height="274" key="GridCell.Tab.1.left" timestamp="1586877228797">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586711582388" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1586711582390">
+    <state width="1398" height="274" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586877228797" />
+    <state width="1398" height="274" key="GridCell.Tab.1.right" timestamp="1586877228798">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075086" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586711582390" />
-    <state width="590" height="436" key="XDebugger.FullValuePopup" timestamp="1586711028751">
+    <state width="1398" height="274" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586877228798" />
+    <state width="590" height="436" key="XDebugger.FullValuePopup" timestamp="1586805707569">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="590" height="436" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1586711028751" />
+    <state width="590" height="436" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1586805707569" />
+    <state x="491" y="221" width="820" height="550" key="find.popup" timestamp="1586799039925">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="491" y="221" width="820" height="550" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1586799039925" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/my_shows.rb</url>
+          <line>75</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="RubyRunConfigurationType">
         <watch expression="series" />
+        <watch expression="seasons_list" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1586796835529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1586877368036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
   </component>
 </project>

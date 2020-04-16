@@ -21,7 +21,7 @@ end
 class MyShows
   include Logging
 
-  BASE_URL = 'https://myshowsqq.me'.freeze
+  BASE_URL = 'https://myshows.me'.freeze
 
   attr_accessor :query
 
@@ -32,7 +32,7 @@ class MyShows
   def parse_html(url = '')
     Nokogiri::HTML(URI.open(BASE_URL + url))
   rescue StandardError
-    logger.error 'Internal error'
+    logger.error 'Error 404. Page not found.'
     nil
   end
 
@@ -43,8 +43,8 @@ class MyShows
     content = {}
     encoded_query = CGI.escape(@query)
     html = parse_html("/search/?q=#{encoded_query}")
-    all_series = html&.css('table.catalogTable').search('tr')
-    all_series[1...-1]&.each do |movie|
+    all_series = html.css('table.catalogTable').search('tr')
+    all_series[1...-1].each do |movie|
       ru_title = movie.css('td > a')[0].text
       content[:"#{ru_title}"] = {
         en_title: movie.css('td > .catalogTableSubHeader')[0].text,
@@ -56,6 +56,8 @@ class MyShows
       }
     end
     content
+  rescue NoMethodError
+    logger.error "Can't apply selectors in '#{__method__}' method. DOM structure apparently was changed."
   end
 
   def seasons(movie_id)
@@ -63,7 +65,7 @@ class MyShows
 
     html = parse_html("/view/#{movie_id}/")
     # list of all seasons
-    html&.css('.col8 > form > .row[itemprop="season"]').reverse_each do |season|
+    html.css('.col8 > form > .row[itemprop="season"]').reverse_each do |season|
       season_number = season.css('.flat > a')[0].text
       special_series_counter = 1
 
@@ -81,6 +83,8 @@ class MyShows
       end
     end
     seasons_list
+  rescue NoMethodError
+    logger.error "Can't apply selectors in '#{__method__}' method. DOM structure apparently was changed."
   end
 
   # top rated movies from main page
@@ -88,7 +92,7 @@ class MyShows
     top_rated_list = {}
     html = parse_html
     # list of all movies
-    html&.xpath('/html/body/div[1]/div[4]/div/div')&.[](0..1)&.css('a')&.each do |movie|
+    html.xpath('/html/body/div[1]/div[4]/div/div').[](0..1).css('a').each do |movie|
       ru_title = movie.css('.fsHeader').text
       top_rated_list[:"#{ru_title}"] = {
         en_title: movie.css('.cFadeLight').text,
@@ -97,7 +101,9 @@ class MyShows
       }
     end
     top_rated_list
+  rescue NoMethodError
+    logger.error "Can't apply selectors in '#{__method__}' method. DOM structure apparently was changed."
   end
 
 end
-puts MyShows.new.top_rated
+puts MyShows.new('bad').movies_list

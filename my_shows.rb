@@ -92,7 +92,6 @@ class MyShows
     top_rated_list = {}
     html = parse_html
     # list of all movies
-    # html.xpath('/html/body/div[1]/div[4]/div/div').[](0..1).css('a').each do |movie|
     html.css('.landing > .container > .row > .col3 > a').each do |movie|
       ru_title = movie.css('.fsHeader').text
       top_rated_list[:"#{ru_title}"] = {
@@ -107,4 +106,3 @@ class MyShows
   end
 
 end
-puts MyShows.new.top_rated

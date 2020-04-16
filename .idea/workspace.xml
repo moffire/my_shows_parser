@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_shows.rb" beforeDir="false" afterPath="$PROJECT_DIR$/my_shows.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/myshows_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/myshows_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +66,113 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.rubocop.yml&#10;true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.rubocop.yml&#10;true&#10;/Users/a1/Downloads/ruby/my_shows_parser/spec/fixtures/files/top_rated.htm" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="RSpec.MyShows">
+    <configuration name="MyShows en_title should be ..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="my_shows_parser" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/myshows_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MyShows en_title should be eq Harley Quinn" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyShows" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="my_shows_parser" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/myshows_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MyShows" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyShows#top_rated en_title ..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="my_shows_parser" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/myshows_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MyShows#top_rated en_title should be eq Harley Quinn" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="my_shows" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="my_shows_parser" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -93,6 +193,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.MyShows" />
+        <item itemvalue="RSpec.MyShows#top_rated en_title ..." />
+        <item itemvalue="RSpec.MyShows en_title should be ..." />
         <item itemvalue="Ruby.my_shows" />
       </list>
     </recent_temporary>
@@ -120,84 +223,94 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="333" y="107" key="#Ruby/0.23.1440.877@0.23.1440.877" timestamp="1586710503374" />
-    <state x="432" y="386" width="937" height="487" key="#xdebugger.evaluate" timestamp="1586805727563">
+    <state x="158" y="270" width="684" height="510" key="#xdebugger.evaluate" timestamp="1587054381383">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="432" y="386" width="937" height="487" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1586805727563" />
-    <state width="1398" height="323" key="GridCell.Tab.0.bottom" timestamp="1587050579407">
+    <state x="158" y="270" width="684" height="510" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1587054381383" />
+    <state width="1398" height="273" key="GridCell.Tab.0.bottom" timestamp="1587055954484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587050579407" />
-    <state width="1398" height="323" key="GridCell.Tab.0.center" timestamp="1587050579405">
+    <state width="1398" height="273" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587055954484" />
+    <state width="1398" height="273" key="GridCell.Tab.0.center" timestamp="1587055954483">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075081" />
-    <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587050579405" />
-    <state width="1398" height="323" key="GridCell.Tab.0.left" timestamp="1587050579405">
+    <state width="1398" height="273" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587055954483" />
+    <state width="1398" height="273" key="GridCell.Tab.0.left" timestamp="1587055954482">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075079" />
-    <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587050579405" />
-    <state width="1398" height="323" key="GridCell.Tab.0.right" timestamp="1587050579406">
+    <state width="1398" height="273" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587055954482" />
+    <state width="1398" height="273" key="GridCell.Tab.0.right" timestamp="1587055954484">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075083" />
-    <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587050579406" />
-    <state width="1398" height="323" key="GridCell.Tab.1.bottom" timestamp="1587050579194">
+    <state width="1398" height="273" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587055954484" />
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1587055494963">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075086" />
-    <state width="1398" height="323" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587050579194" />
-    <state width="1398" height="323" key="GridCell.Tab.1.center" timestamp="1587050579193">
+    <state width="1398" height="294" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587055494963" />
+    <state width="1398" height="294" key="GridCell.Tab.1.center" timestamp="1587055494962">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075085" />
-    <state width="1398" height="323" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587050579193" />
-    <state width="1398" height="323" key="GridCell.Tab.1.left" timestamp="1587050579192">
+    <state width="1398" height="294" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587055494962" />
+    <state width="1398" height="294" key="GridCell.Tab.1.left" timestamp="1587055494962">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="323" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587050579192" />
-    <state width="1398" height="323" key="GridCell.Tab.1.right" timestamp="1587050579193">
+    <state width="1398" height="294" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587055494962" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right" timestamp="1587055494963">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075086" />
-    <state width="1398" height="323" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587050579193" />
+    <state width="1398" height="294" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587055494963" />
+    <state width="1398" height="294" key="GridCell.Tab.2.bottom" timestamp="1587055494964">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587055494964" />
+    <state width="1398" height="294" key="GridCell.Tab.2.center" timestamp="1587055494964">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1587055494964" />
+    <state width="1398" height="294" key="GridCell.Tab.2.left" timestamp="1587055494963">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1587055494963" />
+    <state width="1398" height="294" key="GridCell.Tab.2.right" timestamp="1587055494964">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="294" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1587055494964" />
     <state x="229" y="100" key="SettingsEditor" timestamp="1587050577780">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587050577780" />
-    <state width="590" height="436" key="XDebugger.FullValuePopup" timestamp="1587050746438">
+    <state width="590" height="436" key="XDebugger.FullValuePopup" timestamp="1587050768664">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="590" height="436" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1587050746438" />
+    <state width="590" height="436" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1587050768664" />
     <state x="491" y="221" width="820" height="550" key="find.popup" timestamp="1586799039925">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="491" y="221" width="820" height="550" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1586799039925" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/my_shows.rb</url>
-          <line>95</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="RubyRunConfigurationType">
         <watch expression="series" />
         <watch expression="seasons_list" />
       </configuration>
+      <configuration name="RSpecRunConfigurationType">
+        <watch expression="ms_object.top_rated" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1587050579032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@MyShows_top_rated_en_title____.rcov" NAME="MyShows#top_rated en_title ... Coverage Results" MODIFIED="1587055580735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1587051680656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@MyShows.rcov" NAME="MyShows Coverage Results" MODIFIED="1587055954431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@MyShows_en_title_should_be____.rcov" NAME="MyShows en_title should be ... Coverage Results" MODIFIED="1587052139072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
   </component>
 </project>

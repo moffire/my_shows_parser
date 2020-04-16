@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36af8651-536b-4d05-be85-89dd87ea0ef5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my_shows.rb" beforeDir="false" afterPath="$PROJECT_DIR$/my_shows.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_shows_parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_shows_parser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,26 +120,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="432" y="386" width="937" height="487" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1586805727563" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1587048921640">
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1587049158855">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587048921640" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1587048921638">
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587049158855" />
+    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1587049158854">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075081" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587048921638" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1587048921638">
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587049158854" />
+    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1587049158853">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075079" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587048921638" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1587048921639">
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587049158853" />
+    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1587049158855">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075083" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587048921639" />
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587049158854" />
     <state width="1398" height="323" key="GridCell.Tab.1.bottom" timestamp="1586888025603">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -175,6 +178,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1587048909728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1587049142820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
   </component>
 </project>

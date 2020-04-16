@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36af8651-536b-4d05-be85-89dd87ea0ef5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/my_shows_parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_shows_parser.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_shows.rb" beforeDir="false" afterPath="$PROJECT_DIR$/my_shows.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/myshows_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/myshows_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby Class" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -30,6 +30,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="spec" />
+                    <option name="lastUsedInstant" value="1587049774" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="movie_seasons" />
                     <option name="lastUsedInstant" value="1586797995" />
@@ -66,7 +70,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="my_shows" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -120,56 +124,72 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="432" y="386" width="937" height="487" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1586805727563" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1587049158855">
+    <state width="1398" height="323" key="GridCell.Tab.0.bottom" timestamp="1587050579407">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587049158855" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1587049158854">
+    <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587050579407" />
+    <state width="1398" height="323" key="GridCell.Tab.0.center" timestamp="1587050579405">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075081" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587049158854" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1587049158853">
+    <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587050579405" />
+    <state width="1398" height="323" key="GridCell.Tab.0.left" timestamp="1587050579405">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075079" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587049158853" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1587049158855">
+    <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587050579405" />
+    <state width="1398" height="323" key="GridCell.Tab.0.right" timestamp="1587050579406">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075083" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587049158854" />
-    <state width="1398" height="323" key="GridCell.Tab.1.bottom" timestamp="1586888025603">
+    <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587050579406" />
+    <state width="1398" height="323" key="GridCell.Tab.1.bottom" timestamp="1587050579194">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075086" />
-    <state width="1398" height="323" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586888025603" />
-    <state width="1398" height="323" key="GridCell.Tab.1.center" timestamp="1586888025601">
+    <state width="1398" height="323" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587050579194" />
+    <state width="1398" height="323" key="GridCell.Tab.1.center" timestamp="1587050579193">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075085" />
-    <state width="1398" height="323" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586888025601" />
-    <state width="1398" height="323" key="GridCell.Tab.1.left" timestamp="1586888025601">
+    <state width="1398" height="323" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587050579193" />
+    <state width="1398" height="323" key="GridCell.Tab.1.left" timestamp="1587050579192">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075084" />
-    <state width="1398" height="323" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586888025601" />
-    <state width="1398" height="323" key="GridCell.Tab.1.right" timestamp="1586888025602">
+    <state width="1398" height="323" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587050579192" />
+    <state width="1398" height="323" key="GridCell.Tab.1.right" timestamp="1587050579193">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="285" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1586627075086" />
-    <state width="1398" height="323" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586888025602" />
-    <state width="590" height="436" key="XDebugger.FullValuePopup" timestamp="1586805707569">
+    <state width="1398" height="323" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587050579193" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1587050577780">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="590" height="436" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1586805707569" />
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587050577780" />
+    <state width="590" height="436" key="XDebugger.FullValuePopup" timestamp="1587050746438">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="590" height="436" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1587050746438" />
     <state x="491" y="221" width="820" height="550" key="find.popup" timestamp="1586799039925">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="491" y="221" width="820" height="550" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1586799039925" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/my_shows.rb</url>
+          <line>95</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="RubyRunConfigurationType">
         <watch expression="series" />
@@ -178,6 +198,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1587049142820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
+    <SUITE FILE_PATH="coverage/my_shows_parser@my_shows.rcov" NAME="my_shows Coverage Results" MODIFIED="1587050579032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="my_shows_parser" />
   </component>
 </project>

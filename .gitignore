@@ -1,2 +1,4 @@
 /.idea/
 /.rubocop.yml
+spec/fixtures/
+!/.idea/workspace.xml

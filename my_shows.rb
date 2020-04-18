@@ -104,5 +104,4 @@ class MyShows
   rescue NoMethodError
     logger.error "Can't apply selectors in '#{__method__}' method. DOM structure apparently was changed."
   end
-
 end
